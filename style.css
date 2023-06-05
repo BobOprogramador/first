@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+:root{
+--cor-principal:black;
+--cor-secundaria:pink;
+--cor-terciaria:#dc143c;
+--cor-quartearia:white;
+--cor-quintearia:gray;
+--cor-sextearia:pink;
+--cor-septearia:white;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+}
+
+.cabecalho{
+padding: 2% 0% 0% 15%;
+}
+
+.menu{
+display:flex;
+gap:80px;
+}
+
+.info{
+ font-family:'Pangolin', cursive;
+font-size: 1.2rem;
+font-weight: 600;
+color: var(--cor-quartearia);
+border-bottom:2px solid;
+border-color: var(--cor-sextearia);
+text-decoration: none;
+}
+
+.apresentacao{
+    width: 70%;
+    border:2px solid;
+    padding:5% 15%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+h1{
+    font-family:'Pangolin', cursive;
+    color: var(--cor-quartearia);
+    font-size: 2rem;
+}
+
+.titulo-destaque{
+    color: var(--cor-quintearia);
+}
+
+p{
+    font-family:'Pangolin', cursive;
+    color: var(--cor-secundaria);
+    font-size: 1.3rem;
+}
+
+a{
+    color: var(--cor-terciaria);
+}
+
+.botao{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    gap:25px;
+}
+
+h2{
+    font-family:'Pangolin', cursive;
+    color: var(--cor-terciaria);
+}
+
+.redes{
+    border:2px solid var(--cor-terciaria);
+    width:30%;
+    color: var(--cor-terciaria);
+    text-align:center;
+    border-radius:16px;
+    font-size:1.2rem;
+    padding:15px 0;
+    text-decoration: none;
+}
+
+.redes:hover{
+    background-color: var(--cor-septearia);
+    font-size:1.3rem;
+}
+
+.rodape{
+    text-align:center;
+    padding:3%;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-principal);
+}
